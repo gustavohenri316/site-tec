@@ -61,6 +61,11 @@ export const Home = () => {
               <img src={EMP6}/>
             </div>
       </C.Inovacao>
+      <C.BemVindo>
+              <h4>Bem vindo</h4>
+              <h3>Solution Provider de TI</h3>
+              <p>Somos o seu parceiro de TI para desenvolvimento de software, <br /> plataforma multicloud para microsserviços, integração e atualização de <br /> sistemas legados.</p>
+      </C.BemVindo>
     </Fragment>
   )
 }

@@ -76,3 +76,30 @@ export const Inovacao = styled.div`
         justify-content: space-evenly;
     }
 `
+
+export const BemVindo = styled.div`
+    text-align: center;
+    h4{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 26px;
+        color: #595959;
+    }
+    h3{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 42px;
+        color: #01032D;
+    }
+    p{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+        color: #595959;
+
+    }
+`
