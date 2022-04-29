@@ -6,7 +6,8 @@ export const Container = styled.div`
     height: 400px;
     display: flex;
     flex-direction: column;
-    margin-left: 8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     img{
         width: 70px;
         height: 80px;

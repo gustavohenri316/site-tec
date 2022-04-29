@@ -108,3 +108,60 @@ export const BemVindo = styled.div`
         justify-content: space-around;
     }
 `
+export const NewContainer = styled.div`
+    margin-top: 10rem;
+    width: 100%;
+    height: 1940px;
+    background: #6E37E1;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+`
+
+export const SobreTools = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    width: 1240px;
+    height: 400px;
+    border-radius: 40px;
+    background-image:url('/src/assets/img/sobretools.jpg');
+    z-index: 1;
+    opacity: 90%;
+    align-items:center ;
+    h2{
+        padding: 0 5rem ;
+        z-index: 2;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 73px;
+        color: #FFFFFF;
+    }
+    p{
+        z-index: 3;
+        margin: 0 5rem ;
+        margin-bottom: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        width: 404px;
+        height: 191px;
+        color: #FFFFFF;
+    }
+    button{
+        margin-right: 5rem;
+        width: 150px;
+        height: 100px;
+        background: #6E37E1;
+        border-radius: 100px;
+        border: none;
+        font-family: 'Titillium Web';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+`
