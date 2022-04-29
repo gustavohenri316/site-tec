@@ -102,4 +102,9 @@ export const BemVindo = styled.div`
         color: #595959;
 
     }
+    div{
+        padding-top: 3rem;
+        display: flex;
+        justify-content: space-around;
+    }
 `
